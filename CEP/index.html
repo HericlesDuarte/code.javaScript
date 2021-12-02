@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo.css" rel="stylesheet">
+    <title>Formatação de endereço</title>
+</head>
+<body>
+    
+    <!-- primaria recebe dados --> 
+    <div class="container-a">
+        <h2>Endereço</h2>
+        <form>
+
+            <!-- Caixas de texto -->
+            <div class="frm-row">
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" id="Nome">
+            </div>
+
+            <div class="frm-row">
+                <label for="Cep">Cep</label>
+                <input type="text" name="Cep" id="Cep" maxlength="9">
+            </div>
+
+            <div class="frm-row">
+                <label for="Rua">Rua</label>
+                <input type="text" name="Rua" id="Rua">
+            </div>
+
+            <div class="frm-row">
+                <label for="Numero">Numero</label>
+                <input type="text" name="Numero" id="Numero">
+            </div>
+
+            <div class="frm-row">
+                <label for="Bairro">Bairro</label>
+                <input type="text" name="Bairro" id="Bairro">
+            </div>
+
+            <div class="frm-row">
+                <label for="Cidade">Cidade</label>
+                <input type="text" name="Cidade" id="Cidade">
+            </div>
+
+            <div class="frm-row">
+                <label for="Estado">Estado</label>
+                <input type="text" name="Estado" id="Estado">
+            </div>
+
+        </form>
+
+        <button onClick="format()">Imprimir Etiqueta</button>
+       
+    </div>
+
+    <!--secundaria exibe dados formatados-->
+    <div class="container-b">
+        <h3 id="Etiqueta"></h3>
+        <p id="Endereco"> </p>
+        
+    </div>
+
+    <script src="js/viacep.js"></script>
+</body>
+</html> 

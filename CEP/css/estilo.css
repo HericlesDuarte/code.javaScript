@@ -1,0 +1,63 @@
+body {
+    background: #132994;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* primaria */
+.container-a {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    background: rgb(224, 224, 253);
+    border-radius: 10px;
+    padding: 30px;
+   
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+/* secundaria */   
+.container-b {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    background: rgb(224, 224, 253);
+    border-radius: 10px;
+    padding: 30px;
+   
+    position: absolute;
+    top: 10px;
+    left: 800px;
+}
+
+/* espaçamento das caixas */
+.frm-row {
+   margin-bottom: 10px;
+}
+
+/* caixa de texto */
+.frm-row input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 10px;
+    font-size: 1rem;
+}
+
+/* botão imprimrir */
+button{
+    display: block;
+    color: rgba(2, 2, 17, 0.9);
+    font-size: 1rem;
+    background-color: #b4c2ce;
+    border: 1px solid rgb(0, 0, 0);;
+    border-radius: 6px;
+    height: 30px;
+    width: 135px;
+    margin:1 auto;
+}
